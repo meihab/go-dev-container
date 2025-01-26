@@ -1,0 +1,13 @@
+{
+    "name": "My Go Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "golang.Go"
+        ]
+      }
+    },
+    "postCreateCommand": ""
+  }
